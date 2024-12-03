@@ -66,11 +66,11 @@ jobs:
         queries: |
           security-extended,
           security-and-quality,
-          ./.github/codeql/queries/security/sql-injection.ql
-          ./.github/codeql/queries/security/command-injection.ql
-          ./.github/codeql/queries/security/hardcoded-secrets.ql
-          ./.github/codeql/queries/security/insecure-deserialization.ql
-          ./.github/codeql/queries/security/cross-site-scripting.ql
+          ./.github/codeql/queries/security/sql-injection.ql,
+          ./.github/codeql/queries/security/command-injection.ql,
+          ./.github/codeql/queries/security/hardcoded-secrets.ql,
+          ./.github/codeql/queries/security/insecure-deserialization.ql,
+          ./.github/codeql/queries/security/cross-site-scripting.ql,
           
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
