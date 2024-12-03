@@ -66,7 +66,7 @@ jobs:
         queries: |
           security-extended,
           security-and-quality,
-          ./.github/codeql/queries/security/sql-injection.ql
+          ./.github/codeql/queries/security/sql-injection.ql,
           ./.github/codeql/queries/security/hardcoded-scripts.ql
           
         # If you wish to specify custom queries, you can do so here or in a config file.
